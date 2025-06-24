@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { BaseComponent, SpinnerType } from '../../../base/base.component';
 
 @Component({
   selector: 'app-order',
@@ -7,16 +8,14 @@ import { NgxSpinnerService } from 'ngx-spinner';
   templateUrl: './order.component.html',
   styleUrl: './order.component.scss'
 })
-export class OrderComponent {
-  constructor(private spinner: NgxSpinnerService) { }
+export class OrderComponent extends BaseComponent implements OnInit {
 
-  ngOnInit():void
-  {
-      this.spinner.show("s2");
-      setTimeout(() => {
-  /** spinner ends after 5 seconds */
-  this.spinner.hide("s2");
-}, 5000);
-
+  constructor(spinner: NgxSpinnerService) {
+    super(spinner);
   }
+
+  ngOnInit(): void {
+    this.showSpinner(SpinnerType.BallAtom);
+  }
+
 }
