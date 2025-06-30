@@ -19,21 +19,16 @@ export class AppComponent {
     };
 
 }
-$.get("https://localhost:7006/api/products",data=>
-{
-  console.log(data)
-}
-)
+
+
+// $.get("https://localhost:7006/api/products",data=>
+// {
+//   console.log(data)
+// }
+// )
 
 
 
-// $.post("https://localhost:7006/api/products", {
-//   name: "Deneme",
-//   price: 100,
-//   stock: 50
-// }, data => {
-//   console.log("POST başarılı:", data);
-// });
 
 
 // Tarayıcı üzerinden https://localhost:7006/api/products adresine bir GET isteği atıyor.
