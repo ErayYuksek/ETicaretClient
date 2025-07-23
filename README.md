@@ -1,59 +1,49 @@
-# ETicaretClient
+# 🛍️ ETicaretClient — E-Commerce Frontend Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
+**ETicaretClient** is the frontend application for the `ETicaretAPI` project. It allows users to browse products, view categories, add items to a cart, and place orders. It is designed to work seamlessly with the backend API and follows best practices for building scalable, responsive client-side applications.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎯 Purpose
 
-```bash
-ng serve
-```
+- Provide a user interface for the ETicaretAPI backend
+- Learn and apply frontend development best practices
+- Practice API integration, UI design, state management
+- Simulate a full e-commerce user journey: browse → cart → order
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🧠 Key Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Feature                     | Description                                              |
+|-----------------------------|----------------------------------------------------------|
+| 🛍️ Product Listing         | Browse all products with image, title, price             |
+| 🔍 Search & Filter          | Search by name or filter by category                    |
+| ➕ Add to Cart              | Add and remove items in shopping cart                   |
+| 🛒 Cart Summary             | View cart, subtotal, total                              |
+| 🧾 Order Checkout           | Finalize purchase (mock or real)                        |
+| 🧑‍💻 API Integration        | Connects to ETicaretAPI via HTTP requests               |
+| 📱 Responsive Design        | Works on mobile, tablet, and desktop                    |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Technologies Used
 
-```bash
-ng generate --help
-```
+| Area              | Stack / Tools                                    |
+|-------------------|--------------------------------------------------|
+| Language          | JavaScript / TypeScript (if used)                |
+| Framework         | React.js / Angular / Blazor / (specify yours)    |
+| State Management  | Context API / Redux / Signals (depending)        |
+| Styling           | Bootstrap / Tailwind / CSS Modules               |
+| HTTP Client       | Axios / Fetch API                                |
+| Routing           | React Router / Angular Router                    |
+| Backend           | [ETicaretAPI](https://github.com/ErayYuksek/ETicaretAPI) |
 
-## Building
+---
 
-To build the project run:
+## 🚀 Getting Started
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 1. Clone the Repository
 
 ```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/ErayYuksek/ETicaretClient.git
